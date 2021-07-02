@@ -5,6 +5,7 @@ using UnityEngine;
 public class MicListener : MonoBehaviour
 {
     AudioClip micInput;
+    Master masterScript;
 
     public float RmsValue;
     public float DbValue;
@@ -22,27 +23,34 @@ public class MicListener : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        masterScript = GetComponentInParent<Master>();
+
         if (Microphone.devices.Length>0){
-            micInput = Microphone.Start(Microphone.devices[1],true,999,44100);
+            micInput = Microphone.Start(Microphone.devices[2],true,999,AudioSettings.outputSampleRate);
             //microphoneInitialized = true;
+            Debug.Log("Name: " + Microphone.devices[2]);
         }
-        //GetComponent<AudioSource>().clip = micInput;
+        GetComponent<AudioSource>().clip = micInput;
+        GetComponent<AudioSource>().Play();
+
         _samples = new float[QSamples];
         _spectrum = new float[QSamples];
         _fSample = AudioSettings.outputSampleRate;
     }
 
     void Start(){
-        foreach (var device in Microphone.devices)
+        /*foreach (var device in Microphone.devices)
         {
             Debug.Log("Name: " + device);
             Debug.Log(Microphone.devices.Length);
-        }
+        }*/
     }
 
-    void Update()
+    void FixedUpdate()
     {
         AnalyzeSound();
+        masterScript.SetVolume(DbValue);
+        masterScript.SetPitch(PitchValue);
     }
 
     void AnalyzeSound()

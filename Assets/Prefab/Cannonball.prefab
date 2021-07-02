@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9040962560502709966}
   - component: {fileID: 7470616669220880436}
   - component: {fileID: 6065410726993315438}
+  - component: {fileID: 2956069874460205766}
   m_Layer: 0
   m_Name: Cannonball
   m_TagString: Untagged
@@ -105,3 +106,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!58 &2956069874460205766
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2670236210266325732}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.15999998
