@@ -13,7 +13,8 @@ public class MicListener : MonoBehaviour
     [SerializeField] float something;
 
     private const int QSamples = 1024;
-    private const float RefValue = 0.1f;
+    //change RefValue if need to set new 0dB reference
+    private const float RefValue = 0.01f;
     private const float Threshold = 0.02f;
 
     float[] _samples;
@@ -64,7 +65,7 @@ public class MicListener : MonoBehaviour
         }
         RmsValue = Mathf.Sqrt(sum / QSamples); // rms = square root of average
         DbValue = 20 * Mathf.Log10(RmsValue / RefValue); // calculate dB
-        if (DbValue < -160) DbValue = -160; // clamp it to -160dB min
+        if (DbValue < 0) DbValue = 0; // clamp it to -160dB min
         // get sound spectrum
         GetComponent<AudioSource>().GetSpectrumData(_spectrum, 0, FFTWindow.BlackmanHarris);
         float maxV = 0;
