@@ -12,15 +12,18 @@ public class ShootCannon : MonoBehaviour
     float volume;
     float pitch;
 
-    public float maxVol;
-    public float minVol;
-    public float maxPitch;
-    public float minPitch;
+    float maxVol;
+    float minVol;
+    float maxPitch;
+    float minPitch;
 
     //stuff for calculating angles and speed based on mic input
     float angle;
     float xVector;
     float yVector;
+
+    [SerializeField] float initDelay=0.3f;
+    [SerializeField] float shootCooldown=1f;
 
     //power multipliers
     public float xPower;
@@ -28,12 +31,10 @@ public class ShootCannon : MonoBehaviour
 
     void Awake(){
         masterScript=GetComponentInParent<Master>();
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
+        maxVol=masterScript.GetMaxVol();
+        minVol=masterScript.GetMinVol();
+        maxPitch=masterScript.GetMaxPitch();
+        minPitch=masterScript.GetMinPitch();
     }
 
     // Update is called once per frame
@@ -48,12 +49,12 @@ public class ShootCannon : MonoBehaviour
 
     IEnumerator SpawnBall(){
         active = false;
-        yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(initDelay);
         var newBall = Instantiate(ballPrefab, this.transform.position, new Quaternion(0,0,0,0));
         CalculateAngle();
         CalculateVectors();
         newBall.GetComponent<Rigidbody2D>().AddForce(new Vector2(xPower*xVector, yPower*yVector));
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(shootCooldown-initDelay);
         active=true;
     }
 
