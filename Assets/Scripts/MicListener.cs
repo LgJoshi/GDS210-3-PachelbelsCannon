@@ -14,8 +14,8 @@ public class MicListener : MonoBehaviour
 
     private const int QSamples = 1024;
     //change RefValue if need to set new 0dB reference
-    private const float RefValue = 0.01f;
-    private const float Threshold = 0.02f;
+    private const float RefValue = 0.03f;
+    private const float Threshold = 0.01f;
 
     float[] _samples;
     private float[] _spectrum;
