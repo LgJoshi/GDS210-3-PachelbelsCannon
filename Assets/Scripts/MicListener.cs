@@ -27,9 +27,10 @@ public class MicListener : MonoBehaviour
         masterScript = GetComponentInParent<Master>();
 
         if (Microphone.devices.Length>0){
-            micInput = Microphone.Start(Microphone.devices[2],true,999,AudioSettings.outputSampleRate);
+            micInput = Microphone.Start(Microphone.devices[5],true,999,AudioSettings.outputSampleRate);
             //microphoneInitialized = true;
-            Debug.Log("Name: " + Microphone.devices[2]);
+
+            Debug.Log("Using: " + Microphone.devices[5]);
         }
         GetComponent<AudioSource>().clip = micInput;
         GetComponent<AudioSource>().Play();
@@ -40,11 +41,10 @@ public class MicListener : MonoBehaviour
     }
 
     void Start(){
-        /*foreach (var device in Microphone.devices)
+        foreach (var device in Microphone.devices)
         {
             Debug.Log("Name: " + device);
-            Debug.Log(Microphone.devices.Length);
-        }*/
+        }
     }
 
     void FixedUpdate()

@@ -1,0 +1,1232 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Get",
+				"GetComponent<T>()"
+			],
+			[
+				"Dest",
+				"Destroy(Object obj)"
+			],
+			[
+				"GetMin",
+				"GetMinPitch()"
+			],
+			[
+				"max",
+				"maxVol"
+			],
+			[
+				"min",
+				"minVol"
+			],
+			[
+				"GetM",
+				"GetMaxVol()"
+			],
+			[
+				"Vect",
+				"Vector2()"
+			],
+			[
+				"an",
+				"anchorMin"
+			],
+			[
+				"Ve",
+				"Vector2"
+			],
+			[
+				"sp",
+				"sprite"
+			],
+			[
+				"Game",
+				"GameObject(string name, params Type[] components)"
+			],
+			[
+				"GetC",
+				"GetComponent(string type)"
+			],
+			[
+				"TextMeshPro",
+				"TextMeshProUGUI"
+			],
+			[
+				"text",
+				"text"
+			],
+			[
+				"ToS",
+				"ToString()"
+			],
+			[
+				"tex",
+				"text"
+			],
+			[
+				"Start",
+				"StartCoroutine"
+			],
+			[
+				"Text",
+				"TextMeshPro"
+			],
+			[
+				"TextMes",
+				"TextMeshPro"
+			],
+			[
+				"pitch",
+				"pitchNum"
+			],
+			[
+				"n",
+				"num"
+			],
+			[
+				"total",
+				"totalVol"
+			],
+			[
+				"fo",
+				"foreach"
+			],
+			[
+				"Qui",
+				"Quit()"
+			],
+			[
+				"Loa",
+				"LoadScene(string sceneName)"
+			],
+			[
+				"SceneMan",
+				"SceneManager"
+			],
+			[
+				"Sc",
+				"SceneManagement"
+			],
+			[
+				"Colli",
+				"Collider2D"
+			],
+			[
+				"Ge",
+				"Generic"
+			],
+			[
+				"Un",
+				"UnityEngine"
+			],
+			[
+				"Wa",
+				"WaitForSeconds"
+			],
+			[
+				"mas",
+				"masterScript"
+			],
+			[
+				"x",
+				"xVector"
+			],
+			[
+				"Ca",
+				"CalculateVectors()"
+			],
+			[
+				"Audio",
+				"AudioSettings"
+			],
+			[
+				"Ien",
+				"IEnumerator"
+			],
+			[
+				"V",
+				"Vector2(float x, float y)"
+			],
+			[
+				"Rig",
+				"Rigidbody2D()"
+			],
+			[
+				"Ins",
+				"Instantiate(Object original)"
+			],
+			[
+				"random",
+				"randomDirectionY"
+			],
+			[
+				"ran",
+				"randomSpeed"
+			],
+			[
+				"Ga",
+				"GameWinEvent()"
+			],
+			[
+				"SPrite",
+				"SpriteRenderer"
+			],
+			[
+				"Gam",
+				"GameObject"
+			],
+			[
+				"Change",
+				"ChangeSong()"
+			],
+			[
+				"Load",
+				"LoadScene"
+			],
+			[
+				"LoadS",
+				"LoadScene(int sceneBuildIndex)"
+			],
+			[
+				"Scenm",
+				"SceneManager"
+			],
+			[
+				"Box",
+				"BoxCollider2D"
+			],
+			[
+				"GetComponent",
+				"GetComponent<T>()"
+			],
+			[
+				"Aniamt",
+				"Animator"
+			],
+			[
+				"RigidbodyConstraints",
+				"RigidbodyConstraints2D"
+			],
+			[
+				"F",
+				"FreezePositionY"
+			],
+			[
+				"Debu",
+				"Debug"
+			],
+			[
+				"Drop",
+				"DropDelay()"
+			],
+			[
+				"wa",
+				"WaitForSeconds"
+			],
+			[
+				"IE",
+				"IEnumerator"
+			],
+			[
+				"Free",
+				"FreezePositionX"
+			],
+			[
+				"RigidBO",
+				"RigidbodyConstraints2D"
+			],
+			[
+				"Pha",
+				"PhaseChanged"
+			],
+			[
+				"Rigi",
+				"RigidbodyConstraints2D"
+			],
+			[
+				"Rigidb",
+				"RigidbodyConstraints"
+			],
+			[
+				"Rigidbo",
+				"Rigidbody2D"
+			],
+			[
+				"GetKe",
+				"GetKeyDown(string name)"
+			],
+			[
+				"Phase",
+				"PhaseChangeEvent()"
+			],
+			[
+				"Event",
+				"EventManager"
+			],
+			[
+				"PhaseChan",
+				"PhaseChanged"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Assets/Scripts/MenuStuff/ChangeText.cs",
+			"settings":
+			{
+				"buffer_size": 320,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			},
+			"undo_stack":
+			[
+				[
+					11,
+					1,
+					"reindent",
+					null,
+					"AQAAAHoAAAAAAAAAfgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAegAAAAAAAAB6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					12,
+					1,
+					"insert",
+					{
+						"characters": "mt"
+					},
+					"AgAAAH4AAAAAAAAAfwAAAAAAAAAAAAAAfwAAAAAAAACAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfgAAAAAAAAB+AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					13,
+					2,
+					"left_delete",
+					null,
+					"AgAAAH8AAAAAAAAAfwAAAAAAAAABAAAAdH4AAAAAAAAAfgAAAAAAAAABAAAAbQ",
+					"AQAAAAAAAAABAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"insert",
+					{
+						"characters": "Te"
+					},
+					"AgAAAH4AAAAAAAAAfwAAAAAAAAAAAAAAfwAAAAAAAACAAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfgAAAAAAAAB+AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					15,
+					1,
+					"left_delete",
+					null,
+					"AQAAAH8AAAAAAAAAfwAAAAAAAAABAAAAZQ",
+					"AQAAAAAAAAABAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					16,
+					1,
+					"insert_completion",
+					{
+						"completion": "TextMeshProUGUI",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "TextMeshProUGUI"
+					},
+					"AgAAAH4AAAAAAAAAfgAAAAAAAAABAAAAVH4AAAAAAAAAjQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAfwAAAAAAAAB/AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					19,
+					1,
+					"insert",
+					{
+						"characters": "\nusing"
+					},
+					"BgAAAE4AAAAAAAAATwAAAAAAAAAAAAAATwAAAAAAAABQAAAAAAAAAAAAAABQAAAAAAAAAFEAAAAAAAAAAAAAAFEAAAAAAAAAUgAAAAAAAAAAAAAAUgAAAAAAAABTAAAAAAAAAAAAAABTAAAAAAAAAFQAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAATgAAAAAAAABOAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					20,
+					1,
+					"insert",
+					{
+						"characters": " TMP"
+					},
+					"BAAAAFQAAAAAAAAAVQAAAAAAAAAAAAAAVQAAAAAAAABWAAAAAAAAAAAAAABWAAAAAAAAAFcAAAAAAAAAAAAAAFcAAAAAAAAAWAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAVAAAAAAAAABUAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					21,
+					1,
+					"insert_completion",
+					{
+						"completion": "TMPro$0",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "TMPro"
+					},
+					"AgAAAFUAAAAAAAAAVQAAAAAAAAADAAAAVE1QVQAAAAAAAABaAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWAAAAAAAAABYAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					22,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAFoAAAAAAAAAWwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWgAAAAAAAABaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					27,
+					1,
+					"insert",
+					{
+						"characters": " myTe"
+					},
+					"BQAAAJoAAAAAAAAAmwAAAAAAAAAAAAAAmwAAAAAAAACcAAAAAAAAAAAAAACcAAAAAAAAAJ0AAAAAAAAAAAAAAJ0AAAAAAAAAngAAAAAAAAAAAAAAngAAAAAAAACfAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmgAAAAAAAACaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					28,
+					1,
+					"insert",
+					{
+						"characters": "x"
+					},
+					"AQAAAJ8AAAAAAAAAoAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAnwAAAAAAAACfAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					29,
+					1,
+					"insert_completion",
+					{
+						"completion": "myText",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "myText"
+					},
+					"AgAAAJsAAAAAAAAAmwAAAAAAAAAFAAAAbXlUZXibAAAAAAAAAKEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoAAAAAAAAACgAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAKEAAAAAAAAAogAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAoQAAAAAAAAChAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					1,
+					"insert",
+					{
+						"characters": "public"
+					},
+					"BwAAAKwAAAAAAAAArQAAAAAAAAAAAAAArQAAAAAAAACtAAAAAAAAAKUAAAAvLyBTdGFydCBpcyBjYWxsZWQgYmVmb3JlIHRoZSBmaXJzdCBmcmFtZSB1cGRhdGUKICAgIHZvaWQgU3RhcnQoKQogICAgewogICAgICAgIAogICAgfQoKICAgIC8vIFVwZGF0ZSBpcyBjYWxsZWQgb25jZSBwZXIgZnJhbWUKICAgIHZvaWQgVXBkYXRlKCkKICAgIHsKICAgICAgICAKICAgIH2tAAAAAAAAAK4AAAAAAAAAAAAAAK4AAAAAAAAArwAAAAAAAAAAAAAArwAAAAAAAACwAAAAAAAAAAAAAACwAAAAAAAAALEAAAAAAAAAAAAAALEAAAAAAAAAsgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAUQEAAAAAAACsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"insert",
+					{
+						"characters": " co"
+					},
+					"AwAAALIAAAAAAAAAswAAAAAAAAAAAAAAswAAAAAAAAC0AAAAAAAAAAAAAAC0AAAAAAAAALUAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAsgAAAAAAAACyAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					41,
+					2,
+					"left_delete",
+					null,
+					"AgAAALQAAAAAAAAAtAAAAAAAAAABAAAAb7MAAAAAAAAAswAAAAAAAAABAAAAYw",
+					"AQAAAAAAAAABAAAAtQAAAAAAAAC1AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					1,
+					"insert",
+					{
+						"characters": "voiud"
+					},
+					"BQAAALMAAAAAAAAAtAAAAAAAAAAAAAAAtAAAAAAAAAC1AAAAAAAAAAAAAAC1AAAAAAAAALYAAAAAAAAAAAAAALYAAAAAAAAAtwAAAAAAAAAAAAAAtwAAAAAAAAC4AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAswAAAAAAAACzAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					43,
+					2,
+					"left_delete",
+					null,
+					"AgAAALcAAAAAAAAAtwAAAAAAAAABAAAAZLYAAAAAAAAAtgAAAAAAAAABAAAAdQ",
+					"AQAAAAAAAAABAAAAuAAAAAAAAAC4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					1,
+					"insert",
+					{
+						"characters": "d"
+					},
+					"AQAAALYAAAAAAAAAtwAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtgAAAAAAAAC2AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": " Change"
+					},
+					"BwAAALcAAAAAAAAAuAAAAAAAAAAAAAAAuAAAAAAAAAC5AAAAAAAAAAAAAAC5AAAAAAAAALoAAAAAAAAAAAAAALoAAAAAAAAAuwAAAAAAAAAAAAAAuwAAAAAAAAC8AAAAAAAAAAAAAAC8AAAAAAAAAL0AAAAAAAAAAAAAAL0AAAAAAAAAvgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtwAAAAAAAAC3AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					46,
+					1,
+					"insert_completion",
+					{
+						"completion": "ChangeText",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "ChangeText"
+					},
+					"AgAAALgAAAAAAAAAuAAAAAAAAAAGAAAAQ2hhbmdluAAAAAAAAADCAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAvgAAAAAAAAC+AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAAMIAAAAAAAAAxAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwgAAAAAAAADCAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					48,
+					1,
+					"insert",
+					{
+						"characters": "string"
+					},
+					"BgAAAMMAAAAAAAAAxAAAAAAAAAAAAAAAxAAAAAAAAADFAAAAAAAAAAAAAADFAAAAAAAAAMYAAAAAAAAAAAAAAMYAAAAAAAAAxwAAAAAAAAAAAAAAxwAAAAAAAADIAAAAAAAAAAAAAADIAAAAAAAAAMkAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwwAAAAAAAADDAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					49,
+					1,
+					"insert",
+					{
+						"characters": " s"
+					},
+					"AgAAAMkAAAAAAAAAygAAAAAAAAAAAAAAygAAAAAAAADLAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyQAAAAAAAADJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					51,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAAMwAAAAAAAAAzgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzAAAAAAAAADMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					52,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"BgAAAM0AAAAAAAAAzgAAAAAAAAAAAAAAzgAAAAAAAADSAAAAAAAAAAAAAADSAAAAAAAAANMAAAAAAAAAAAAAANMAAAAAAAAA1wAAAAAAAAAAAAAAzgAAAAAAAADOAAAAAAAAAAQAAAAgICAgzgAAAAAAAADWAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzQAAAAAAAADNAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					55,
+					1,
+					"left_delete",
+					null,
+					"AgAAAMoAAAAAAAAAygAAAAAAAAABAAAAc80AAAAAAAAAzQAAAAAAAAAIAAAAICAgICAgICA",
+					"AQAAAAAAAAABAAAAywAAAAAAAADLAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					56,
+					1,
+					"insert",
+					{
+						"characters": "input"
+					},
+					"BQAAAMoAAAAAAAAAywAAAAAAAAAAAAAAywAAAAAAAADMAAAAAAAAAAAAAADMAAAAAAAAAM0AAAAAAAAAAAAAAM0AAAAAAAAAzgAAAAAAAAAAAAAAzgAAAAAAAADPAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAygAAAAAAAADKAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					63,
+					1,
+					"reindent",
+					null,
+					"AQAAANIAAAAAAAAA2gAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA0gAAAAAAAADSAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					64,
+					1,
+					"insert",
+					{
+						"characters": "myT"
+					},
+					"AwAAANoAAAAAAAAA2wAAAAAAAAAAAAAA2wAAAAAAAADcAAAAAAAAAAAAAADcAAAAAAAAAN0AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2gAAAAAAAADaAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					65,
+					1,
+					"insert_completion",
+					{
+						"completion": "myText$0",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "myText"
+					},
+					"AgAAANoAAAAAAAAA2gAAAAAAAAADAAAAbXlU2gAAAAAAAADgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA3QAAAAAAAADdAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					66,
+					1,
+					"insert",
+					{
+						"characters": ".t"
+					},
+					"AgAAAOAAAAAAAAAA4QAAAAAAAAAAAAAA4QAAAAAAAADiAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4AAAAAAAAADgAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					67,
+					1,
+					"insert_completion",
+					{
+						"completion": "text$0",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "text"
+					},
+					"AgAAAOEAAAAAAAAA4QAAAAAAAAABAAAAdOEAAAAAAAAA5QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA4gAAAAAAAADiAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					68,
+					1,
+					"insert",
+					{
+						"characters": " ="
+					},
+					"AgAAAOUAAAAAAAAA5gAAAAAAAAAAAAAA5gAAAAAAAADnAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5QAAAAAAAADlAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					69,
+					1,
+					"insert",
+					{
+						"characters": " input"
+					},
+					"BgAAAOcAAAAAAAAA6AAAAAAAAAAAAAAA6AAAAAAAAADpAAAAAAAAAAAAAADpAAAAAAAAAOoAAAAAAAAAAAAAAOoAAAAAAAAA6wAAAAAAAAAAAAAA6wAAAAAAAADsAAAAAAAAAAAAAADsAAAAAAAAAO0AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA5wAAAAAAAADnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					70,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAO0AAAAAAAAA7gAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA7QAAAAAAAADtAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					77,
+					1,
+					"insert",
+					{
+						"characters": "T"
+					},
+					"AgAAALgAAAAAAAAAuQAAAAAAAAAAAAAAuQAAAAAAAAC5AAAAAAAAAAoAAABDaGFuZ2VUZXh0",
+					"AQAAAAAAAAABAAAAwgAAAAAAAAC4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					78,
+					1,
+					"left_delete",
+					null,
+					"AQAAALgAAAAAAAAAuAAAAAAAAAABAAAAVA",
+					"AQAAAAAAAAABAAAAuQAAAAAAAAC5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					79,
+					1,
+					"insert",
+					{
+						"characters": "Te"
+					},
+					"AgAAALgAAAAAAAAAuQAAAAAAAAAAAAAAuQAAAAAAAAC6AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuAAAAAAAAAC4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					80,
+					1,
+					"insert",
+					{
+						"characters": "xtUpdate"
+					},
+					"CAAAALoAAAAAAAAAuwAAAAAAAAAAAAAAuwAAAAAAAAC8AAAAAAAAAAAAAAC8AAAAAAAAAL0AAAAAAAAAAAAAAL0AAAAAAAAAvgAAAAAAAAAAAAAAvgAAAAAAAAC/AAAAAAAAAAAAAAC/AAAAAAAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAwQAAAAAAAAAAAAAAwQAAAAAAAADCAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAugAAAAAAAAC6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					89,
+					1,
+					"insert",
+					{
+						"characters": "\n\n"
+					},
+					"BQAAAKcAAAAAAAAAqAAAAAAAAAAAAAAAqAAAAAAAAACsAAAAAAAAAAAAAACsAAAAAAAAAK0AAAAAAAAAAAAAAK0AAAAAAAAAsQAAAAAAAAAAAAAAqAAAAAAAAACoAAAAAAAAAAQAAAAgICAg",
+					"AQAAAAAAAAABAAAApwAAAAAAAACnAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					91,
+					1,
+					"reindent",
+					null,
+					"AQAAAKgAAAAAAAAArAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAqAAAAAAAAACoAAAAAAAAAAAAAAAAAEVA"
+				],
+				[
+					93,
+					1,
+					"insert",
+					{
+						"characters": "void"
+					},
+					"BQAAAKwAAAAAAAAArQAAAAAAAAAAAAAArgAAAAAAAACuAAAAAAAAAAQAAAAgICAgrQAAAAAAAACuAAAAAAAAAAAAAACuAAAAAAAAAK8AAAAAAAAAAAAAAK8AAAAAAAAAsAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAArAAAAAAAAACsAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					94,
+					1,
+					"insert",
+					{
+						"characters": " Awak"
+					},
+					"BQAAALAAAAAAAAAAsQAAAAAAAAAAAAAAsQAAAAAAAACyAAAAAAAAAAAAAACyAAAAAAAAALMAAAAAAAAAAAAAALMAAAAAAAAAtAAAAAAAAAAAAAAAtAAAAAAAAAC1AAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAsAAAAAAAAACwAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					95,
+					1,
+					"insert_completion",
+					{
+						"completion": "Awake",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "Awake"
+					},
+					"AgAAALEAAAAAAAAAsQAAAAAAAAAEAAAAQXdha7EAAAAAAAAAtgAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtQAAAAAAAAC1AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					96,
+					1,
+					"insert_snippet",
+					{
+						"contents": "($0)"
+					},
+					"AQAAALYAAAAAAAAAuAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAtgAAAAAAAAC2AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					98,
+					1,
+					"insert_snippet",
+					{
+						"contents": "{$0}"
+					},
+					"AQAAALgAAAAAAAAAugAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuAAAAAAAAAC4AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					99,
+					1,
+					"insert",
+					{
+						"characters": "P"
+					},
+					"AQAAALkAAAAAAAAAugAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQAAAAAAAAC5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					100,
+					1,
+					"left_delete",
+					null,
+					"AQAAALkAAAAAAAAAuQAAAAAAAAABAAAAUA",
+					"AQAAAAAAAAABAAAAugAAAAAAAAC6AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					101,
+					1,
+					"run_macro_file",
+					{
+						"file": "res://Packages/Default/Add Line in Braces.sublime-macro"
+					},
+					"BgAAALkAAAAAAAAAugAAAAAAAAAAAAAAugAAAAAAAAC+AAAAAAAAAAAAAAC+AAAAAAAAAL8AAAAAAAAAAAAAAL8AAAAAAAAAwwAAAAAAAAAAAAAAugAAAAAAAAC6AAAAAAAAAAQAAAAgICAgugAAAAAAAADCAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAuQAAAAAAAAC5AAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					102,
+					1,
+					"insert",
+					{
+						"characters": "my"
+					},
+					"AgAAAMIAAAAAAAAAwwAAAAAAAAAAAAAAwwAAAAAAAADEAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAwgAAAAAAAADCAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					103,
+					1,
+					"insert_completion",
+					{
+						"completion": "myText$0",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "myText"
+					},
+					"AgAAAMIAAAAAAAAAwgAAAAAAAAACAAAAbXnCAAAAAAAAAMgAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAxAAAAAAAAADEAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					104,
+					1,
+					"insert",
+					{
+						"characters": "="
+					},
+					"AQAAAMgAAAAAAAAAyQAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyAAAAAAAAADIAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					105,
+					1,
+					"insert",
+					{
+						"characters": "Get"
+					},
+					"AwAAAMkAAAAAAAAAygAAAAAAAAAAAAAAygAAAAAAAADLAAAAAAAAAAAAAADLAAAAAAAAAMwAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAyQAAAAAAAADJAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					109,
+					1,
+					"insert_completion",
+					{
+						"completion": "GetComponent<${1:T}>()$0",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "GetComponent<T>()"
+					},
+					"AgAAAMkAAAAAAAAAyQAAAAAAAAADAAAAR2V0yQAAAAAAAADaAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAzAAAAAAAAADMAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					110,
+					1,
+					"insert",
+					{
+						"characters": "Tex"
+					},
+					"BAAAANYAAAAAAAAA1wAAAAAAAAAAAAAA1wAAAAAAAADXAAAAAAAAAAEAAABU1wAAAAAAAADYAAAAAAAAAAAAAADYAAAAAAAAANkAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA1gAAAAAAAADXAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					111,
+					1,
+					"insert_completion",
+					{
+						"completion": "TextMeshProUGUI$0",
+						"format": "snippet",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "TextMeshProUGUI"
+					},
+					"AgAAANYAAAAAAAAA1gAAAAAAAAADAAAAVGV41gAAAAAAAADlAAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA2QAAAAAAAADZAAAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					113,
+					1,
+					"insert",
+					{
+						"characters": ";"
+					},
+					"AQAAAOgAAAAAAAAA6QAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAA6AAAAAAAAADoAAAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		},
+		{
+			"file": "Assets/Scripts/MicListener.cs",
+			"settings":
+			{
+				"buffer_size": 2806,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"Package Control: Ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Install",
+				"Package Control: Install Package"
+			],
+			[
+				"Install ",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/MenuStuff"
+	],
+	"file_history":
+	[
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Junk/Projects/Unity",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Project/SAE",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Class",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/MenuStuff/ChangeText.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/SublimeProject.sublime-project",
+		"/C/Users/lgjos/My",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/Master.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/PitchDisplay.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/GraphDisplay.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/MicListener.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/MenuStuff/ChangeText.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Sublime-PachelbelsCannon.sublime-project",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/MenuButtons.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/ShootCannon.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/AnimalController.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/AnimalController.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/ShootCannon.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/PitchDisplay.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/dbDisplay.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/dbDisplay.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/Master.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/MicListener.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/PlaySound.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/MenuButtons.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/KillZone.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scripts/KillZone.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/KillZone.cs",
+		"/C/Users/lgjos/AppData/Roaming/Sublime Text/Packages/User/OmniSharpSublime.sublime-settings",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-2-Animal-Fall/Assets/Scripts/MusicController.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-2-Animal-Fall/Assets/Scripts/MenuButtons.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-2-Animal-Fall/Assets/Scripts/CameraMover.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-2-Animal-Fall/Assets/Scripts/ClickAndDrag.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-3-PachelbelsCannon/Assets/Scenes/Scripts/ShootCannon.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-2-Animal-Fall/Assets/Scripts/Spawner.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-2-Animal-Fall/Assets/Scripts/CameraFollow.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-2-Animal-Fall/Assets/Scripts/FireFall.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-2-Animal-Fall/Assets/Scripts/AnimalController.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-2-Animal-Fall/Assets/Scripts/Master.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-2-Animal-Fall/Assets/Scripts/EventManager.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-2-Animal-Fall/Assets/Scripts/DragNDrop.cs",
+		"/C/Users/lgjos/My Junk/Projects/Unity Project/SAE Class 21T2/GDS210/GDS210-2-Animal-Fall/Assets/Scripts/GameSpace.cs"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Assets/Scripts/MenuStuff/ChangeText.cs",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"oops":
+							{
+								"0,5": "Unnecessary using directive.",
+								"184,194": "'ChangeText': member names cannot be the same as their enclosing type",
+								"26,31": "Unnecessary using directive."
+							},
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Assets/Scripts/MicListener.cs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Unity3D/UnityC#.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 150.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.variable_get":
+	{
+		"height": 150.0
+	},
+	"pinned_build_system": "",
+	"project": "SublimeProject.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 190.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
