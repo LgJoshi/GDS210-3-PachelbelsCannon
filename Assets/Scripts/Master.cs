@@ -17,6 +17,7 @@ public class Master : MonoBehaviour
         pitchData = new float[10];
     }
 
+    //set max/min values
     public float maxVol;
     public float minVol;
     public float maxPitch;
@@ -49,6 +50,7 @@ public class Master : MonoBehaviour
     }
 
 
+    //recieves input from MicListener
     public float volume;
     public float pitch;
 
@@ -78,5 +80,14 @@ public class Master : MonoBehaviour
         pitch=totalPitch/pitchData.Length;
         if (pitch>maxPitch) pitch=maxPitch;
         if (pitch<minPitch) pitch=minPitch;
+    }
+
+    //stuff for setting mic
+    public int micNum=0;
+    public int GetMicNum(){
+        return micNum;
+    }
+    public void SetMicNum(string num){
+        micNum=int.Parse(num);
     }
 }

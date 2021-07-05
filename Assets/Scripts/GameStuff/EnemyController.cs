@@ -2,14 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class AnimalController : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
     [SerializeField] GameObject meat;
+    [SerializeField] float speed = 0.1f;
+    [SerializeField] bool active=true;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-
+    void Start(){
+        StartCoroutine(MoveLeft());
     }
 
     void OnTriggerEnter2D(Collider2D collide)
@@ -20,10 +20,18 @@ public class AnimalController : MonoBehaviour
         }
     }
 
+    IEnumerator MoveLeft(){
+        while (active){
+            yield return new WaitForSeconds(0.1f);
+            this.transform.position += new Vector3(-speed, 0, 0);        
+        }
+
+    }
+
     void Splatter(){
         Debug.Log("I splat!");
         for (int i=0; i<=20;i++){
-            var newMeat= Instantiate(meat, this.transform.position, new Quaternion(0,0,Random.Range(0,180),0));
+            var newMeat= Instantiate(meat, this.transform.position, Quaternion.Euler(new Vector3(0,0,Random.Range(0,360))));
             float randomSpeed = Random.Range(100, 1000);
             float randomDirectionX = Random.Range(-1f, 1f);
             float randomDirectionY = Random.Range(-1f, 1f);

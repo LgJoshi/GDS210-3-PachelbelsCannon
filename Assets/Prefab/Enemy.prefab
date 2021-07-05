@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3680455362414912471}
   - component: {fileID: 3680455362414912468}
   m_Layer: 0
-  m_Name: Animal
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

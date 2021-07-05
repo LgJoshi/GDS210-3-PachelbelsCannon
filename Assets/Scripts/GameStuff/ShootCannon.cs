@@ -29,7 +29,7 @@ public class ShootCannon : MonoBehaviour
     public float xPower;
     public float yPower;
 
-    void Awake(){
+    void Start(){
         masterScript=GetComponentInParent<Master>();
         maxVol=masterScript.GetMaxVol();
         minVol=masterScript.GetMinVol();
@@ -53,7 +53,8 @@ public class ShootCannon : MonoBehaviour
         var newBall = Instantiate(ballPrefab, this.transform.position, new Quaternion(0,0,0,0));
         CalculateAngle();
         CalculateVectors();
-        newBall.GetComponent<Rigidbody2D>().AddForce(new Vector2(xPower*xVector, yPower*yVector));
+        this.transform.localRotation = Quaternion.Euler(new Vector3(0,0,angle*180/Mathf.PI));
+        newBall.GetComponent<Rigidbody2D>().AddForce(new Vector2(xPower*xVector+10, yPower*yVector+15));
         yield return new WaitForSeconds(shootCooldown-initDelay);
         active=true;
     }

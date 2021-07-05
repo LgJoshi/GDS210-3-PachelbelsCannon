@@ -6,6 +6,7 @@ public class MicListener : MonoBehaviour
 {
     AudioClip micInput;
     Master masterScript;
+    int micNum;
 
     public float RmsValue;
     public float DbValue;
@@ -14,7 +15,7 @@ public class MicListener : MonoBehaviour
 
     private const int QSamples = 1024;
     //change RefValue if need to set new 0dB reference
-    private const float RefValue = 0.03f;
+    private const float RefValue = 0.02f;
     private const float Threshold = 0.01f;
 
     float[] _samples;
@@ -25,12 +26,12 @@ public class MicListener : MonoBehaviour
     void Awake()
     {
         masterScript = GetComponentInParent<Master>();
+        micNum = masterScript.GetMicNum();
 
         if (Microphone.devices.Length>0){
-            micInput = Microphone.Start(Microphone.devices[5],true,999,AudioSettings.outputSampleRate);
-            //microphoneInitialized = true;
+            micInput = Microphone.Start(Microphone.devices[micNum],true,999,AudioSettings.outputSampleRate);
 
-            Debug.Log("Using: " + Microphone.devices[5]);
+            Debug.Log("Using: " + Microphone.devices[micNum]);
         }
         GetComponent<AudioSource>().clip = micInput;
         GetComponent<AudioSource>().Play();
@@ -86,5 +87,15 @@ public class MicListener : MonoBehaviour
             freqN += 0.5f * (dR * dR - dL * dL);
         }
         PitchValue = freqN * (_fSample / 2) / QSamples; // convert index to frequency
+    }
+
+    public void ChangeMic(string num){
+        micNum = int.Parse(num);
+        micInput = Microphone.Start(Microphone.devices[micNum],true,999,AudioSettings.outputSampleRate);
+
+        Debug.Log("Using: " + Microphone.devices[micNum]);
+        
+        GetComponent<AudioSource>().clip = micInput;
+        GetComponent<AudioSource>().Play();
     }
 }
