@@ -6,7 +6,7 @@ public class MicListener : MonoBehaviour
 {
     AudioClip micInput;
     Master masterScript;
-    int micNum;
+    [SerializeField] int micNum;
 
     public float RmsValue;
     public float DbValue;
@@ -23,7 +23,7 @@ public class MicListener : MonoBehaviour
     private float _fSample;
 
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
         masterScript = GetComponentInParent<Master>();
         micNum = masterScript.GetMicNum();
@@ -39,14 +39,13 @@ public class MicListener : MonoBehaviour
         _samples = new float[QSamples];
         _spectrum = new float[QSamples];
         _fSample = AudioSettings.outputSampleRate;
-    }
 
-    void Start(){
         foreach (var device in Microphone.devices)
         {
             Debug.Log("Name: " + device);
         }
     }
+
 
     void FixedUpdate()
     {
@@ -90,6 +89,7 @@ public class MicListener : MonoBehaviour
     }
 
     public void ChangeMic(string num){
+        Microphone.End(Microphone.devices[micNum]);
         micNum = int.Parse(num);
         micInput = Microphone.Start(Microphone.devices[micNum],true,999,AudioSettings.outputSampleRate);
 

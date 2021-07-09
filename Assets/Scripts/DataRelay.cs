@@ -11,6 +11,7 @@ public class DataRelay : MonoBehaviour
     [SerializeField] float minVol;
     [SerializeField] float maxPitch;
     [SerializeField] float minPitch;
+    [SerializeField] string micNum;
 
     private void Awake()
     {
@@ -20,6 +21,7 @@ public class DataRelay : MonoBehaviour
         minVol=dataScript.GetMinVol();
         maxPitch=dataScript.GetMaxPitch();
         minPitch=dataScript.GetMinPitch();
+        micNum=dataScript.GetMicNum();
     }
 
     private void Start(){
@@ -27,6 +29,7 @@ public class DataRelay : MonoBehaviour
         masterScript.SetMinVolume(minVol.ToString());
         masterScript.SetMaxPitch(maxPitch.ToString());
         masterScript.SetMinPitch(minPitch.ToString());
+        masterScript.SetMicNum(micNum);
     }
 
 }

@@ -49,6 +49,11 @@ public class Master : MonoBehaviour
         minPitch=float.Parse(num);
     }
 
+    void Update(){
+        if(Input.GetKeyDown("a")){
+            EventManager.WinGame();
+        }
+    }
 
     //recieves input from MicListener
     public float volume;

@@ -14,7 +14,6 @@ public class EnemyController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collide)
     {
-        Debug.Log("collided with "+collide.gameObject.name);
         if (collide.gameObject.name == "Cannonball(Clone)"){
             Splatter();
         }
@@ -29,7 +28,6 @@ public class EnemyController : MonoBehaviour
     }
 
     void Splatter(){
-        Debug.Log("I splat!");
         for (int i=0; i<=20;i++){
             var newMeat= Instantiate(meat, this.transform.position, Quaternion.Euler(new Vector3(0,0,Random.Range(0,360))));
             float randomSpeed = Random.Range(100, 1000);

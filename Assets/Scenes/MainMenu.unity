@@ -2924,6 +2924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 60e091288ae7ab243ad2c54e7e612aca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  micNum: 0
   RmsValue: 0
   DbValue: 0
   PitchValue: 0
@@ -3168,7 +3169,7 @@ MonoBehaviour:
   minPitch: 75
   volume: 50
   pitch: 50
-  micNum: 0
+  micNum: 4
 --- !u!1 &1888881435
 GameObject:
   m_ObjectHideFlags: 0

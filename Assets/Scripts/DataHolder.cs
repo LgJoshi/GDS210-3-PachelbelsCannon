@@ -16,6 +16,7 @@ public class DataHolder : MonoBehaviour
     public float minVol;
     public float maxPitch;
     public float minPitch;
+    public string micNum;
 
     private void Awake()
     {
@@ -37,6 +38,7 @@ public class DataHolder : MonoBehaviour
         minVol=masterScript.GetMinVol();
         maxPitch=masterScript.GetMaxPitch();
         minPitch=masterScript.GetMinPitch();
+        micNum=masterScript.GetMicNum().ToString();
     }
 
     public float GetMaxVol(){
@@ -50,5 +52,8 @@ public class DataHolder : MonoBehaviour
     }
     public float GetMinPitch(){
         return minPitch;
+    }
+    public string GetMicNum(){
+        return micNum;
     }
 }

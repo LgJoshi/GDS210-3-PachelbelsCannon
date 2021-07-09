@@ -8,7 +8,7 @@ public class GameStarter : MonoBehaviour
     {
         Debug.Log("collided with "+collide.gameObject.name);
         if (collide.gameObject.name == "Cannonball(Clone)"){
-            GetComponentInParent<EnemySpawn>().StartWave();
+            EventManager.StartGame();
         }
     }
 }
