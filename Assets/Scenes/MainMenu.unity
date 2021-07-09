@@ -1160,6 +1160,7 @@ MonoBehaviour:
   minVol: 0
   maxPitch: 0
   minPitch: 0
+  micNum: 
 --- !u!4 &435912537
 Transform:
   m_ObjectHideFlags: 0
@@ -2943,7 +2944,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -3169,7 +3170,7 @@ MonoBehaviour:
   minPitch: 75
   volume: 50
   pitch: 50
-  micNum: 4
+  micNum: 0
 --- !u!1 &1888881435
 GameObject:
   m_ObjectHideFlags: 0

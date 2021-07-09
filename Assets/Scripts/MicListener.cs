@@ -8,6 +8,9 @@ public class MicListener : MonoBehaviour
     Master masterScript;
     [SerializeField] int micNum;
 
+    bool focused=false;
+    bool Initialised=false;
+
     public float RmsValue;
     public float DbValue;
     public float PitchValue;
@@ -28,13 +31,8 @@ public class MicListener : MonoBehaviour
         masterScript = GetComponentInParent<Master>();
         micNum = masterScript.GetMicNum();
 
-        if (Microphone.devices.Length>0){
-            micInput = Microphone.Start(Microphone.devices[micNum],true,999,AudioSettings.outputSampleRate);
-
-            Debug.Log("Using: " + Microphone.devices[micNum]);
-        }
-        GetComponent<AudioSource>().clip = micInput;
-        GetComponent<AudioSource>().Play();
+        InitMic();
+        Initialised=true;
 
         _samples = new float[QSamples];
         _spectrum = new float[QSamples];
@@ -46,12 +44,53 @@ public class MicListener : MonoBehaviour
         }
     }
 
+    void OnApplicationFocus (bool focus)
+    {
+        focused = focus;
+    }
+    void  OnApplicationPause (bool focus)
+    {
+        focused = focus;
+    }
 
     void FixedUpdate()
     {
+        if (!focused) {
+            StopMic ();
+            Initialised = false;
+        }
+        if (!Application.isPlaying) {
+            StopMic ();
+            Initialised = false;
+        } else {
+            if (!Initialised) {
+                InitMic ();
+                Initialised = true;
+            }
+        }
+
         AnalyzeSound();
         masterScript.SetVolume(DbValue);
         masterScript.SetPitch(PitchValue);
+    }
+
+    void InitMic(){
+        if (Microphone.devices.Length>0){
+            micInput = Microphone.Start(Microphone.devices[micNum],true,1,AudioSettings.outputSampleRate);
+
+            Debug.Log("Using: " + Microphone.devices[micNum]);
+        }
+        GetComponent<AudioSource>().clip = micInput;
+        while (!(Microphone.GetPosition(Microphone.devices[micNum]) > 0)) {
+
+        } 
+        GetComponent<AudioSource>().Play();
+    }
+
+    void StopMic(){
+        GetComponent<AudioSource>().Stop();
+        Microphone.End(Microphone.devices[micNum]);
+        Debug.Log ("Stopping the microphone...");
     }
 
     void AnalyzeSound()
@@ -89,13 +128,8 @@ public class MicListener : MonoBehaviour
     }
 
     public void ChangeMic(string num){
-        Microphone.End(Microphone.devices[micNum]);
+        StopMic();
         micNum = int.Parse(num);
-        micInput = Microphone.Start(Microphone.devices[micNum],true,999,AudioSettings.outputSampleRate);
-
-        Debug.Log("Using: " + Microphone.devices[micNum]);
-        
-        GetComponent<AudioSource>().clip = micInput;
-        GetComponent<AudioSource>().Play();
+        InitMic();
     }
 }

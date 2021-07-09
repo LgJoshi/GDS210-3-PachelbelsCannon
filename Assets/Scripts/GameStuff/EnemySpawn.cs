@@ -12,7 +12,7 @@ public class EnemySpawn : MonoBehaviour
 
     bool timerStart;
     [SerializeField] float timer=0;
-    float bossTime=10f;
+    float bossTime=40f;
 
     void Update(){
         if(timerStart){
